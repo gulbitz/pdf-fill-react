@@ -70,20 +70,7 @@ const styles = StyleSheet.create({
     }
 });
 
-interface PDFViewerProps {
-    viewerDimensions: {
-        width: number,
-        height: number,
-    },
-    formData: {
-        companyName: string,
-        address: string,
-        phone: number | string,
-        email: string,
-    }
-}
-
-const PDFViewerComp = (data: PDFViewerProps) => {
+const PDFViewerComp = (data) => {
 
     return (
         <PDFViewer style={{ width: data.viewerDimensions.width, height: data.viewerDimensions.height }}>

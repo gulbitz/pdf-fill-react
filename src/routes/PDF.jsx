@@ -1,4 +1,3 @@
-'use client'
 import PDFViewerComp from "../components/PDFViewerComp";
 import { useEffect, useState } from "react";
 
