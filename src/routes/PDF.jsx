@@ -31,12 +31,6 @@ function PDF() {
 
     const [viewerDimensions, setViewerDimensions] = useState({ width: 0, height: 0 });
 
-    const data = {
-        viewerDimensions: {
-            width: viewerDimensions.width,
-            height: viewerDimensions.height,
-        },
-    }
 
     return (
         <PDFViewerComp viewerDimensions={{
